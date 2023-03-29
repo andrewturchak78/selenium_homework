@@ -7,9 +7,10 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class OrderTest {
     WebDriver driver;
+    private static ChromeOptions options;
     @BeforeAll
     static void setUpAll() {
-        WebDriverManager.chromedriver().create();
+        WebDriverManager.chromedriver().setup();
     }
 
     @BeforeEach
