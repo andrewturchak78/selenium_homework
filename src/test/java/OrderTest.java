@@ -1,3 +1,4 @@
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,7 @@ public class OrderTest {
 
     @BeforeAll
     static void setUpAll() {
+        WebDriverManager.chromedriver().setup();
         System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
     }
     @BeforeEach
