@@ -10,7 +10,7 @@ public class OrderTest {
 
     @BeforeAll
     static void setUpAll() {
-        WebDriverManager.chromedriver().setup();
+        WebDriverManager.chromedriver().create();
     }
     @BeforeEach
     void setUp(){
