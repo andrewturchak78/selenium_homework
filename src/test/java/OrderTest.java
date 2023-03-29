@@ -7,13 +7,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class OrderTest {
     WebDriver driver;
-
     @BeforeAll
     static void setUpAll() {
         WebDriverManager.chromedriver().create();
     }
+
     @BeforeEach
-    void setUp(){
+    void setUp() {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--no-sandbox");
@@ -21,11 +21,13 @@ public class OrderTest {
         options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(options);
     }
+
     @AfterEach
     void tearDown() {
         driver.quit();
         driver = null;
     }
+
     @Test
     void test() {
         driver.get("http://localhost:9999/");
@@ -35,6 +37,6 @@ public class OrderTest {
         driver.findElement(By.className("button__text")).click();
         String expected = "Ваша заявка успешно отправлена! Наш менеджер свяжется с вами в ближайшее время.";
         String actual = driver.findElement(By.cssSelector("[data-test-id=order-success]")).getText();
-        Assertions.assertEquals(expected,actual.trim());
+        Assertions.assertEquals(expected, actual.trim());
     }
 }
