@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4274e9e-1aa2-47d4-bd40-0f704e7099e9" name="Changes" comment="setUpAll fixed">
+    <list default="true" id="b4274e9e-1aa2-47d4-bd40-0f704e7099e9" name="Changes" comment="test added again">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +62,30 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.OrderTest">
+    <configuration name="OrderTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;OrderTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="OrderTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -89,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.OrderTest" />
         <item itemvalue="Gradle.OrderTest.test" />
       </list>
     </recent_temporary>
@@ -137,7 +160,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680116115703</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="build gradle fixed">
+      <created>1680116499962</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680116499962</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test added again">
+      <created>1680116770848</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680116770848</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -146,6 +183,8 @@
     <MESSAGE value="setUp fixed" />
     <MESSAGE value="setUpAll added" />
     <MESSAGE value="setUpAll fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="setUpAll fixed" />
+    <MESSAGE value="build gradle fixed" />
+    <MESSAGE value="test added again" />
+    <option name="LAST_COMMIT_MESSAGE" value="test added again" />
   </component>
 </project>
