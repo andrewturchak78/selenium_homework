@@ -14,5 +14,4 @@ install:
 
 build_script:
 - chmod +x gradlew
-- chmod +x chromedriver
 - ./gradlew test --info  # запускаем тест, флаг --info позволяет выводить больше информации
